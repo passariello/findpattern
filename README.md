@@ -12,6 +12,11 @@ This is the most used test...
 
 My name is Dario Passariello... you can agree with me or not... but life is short....
 
+# EXAMPLE
+
+So, I see that some test asking for a solution like this... enjoy!
+"The test ask to have count of groups pr count of word of subsequence"
+
 ```javascript
 const findPattern = ( word ) => {
 
@@ -30,16 +35,31 @@ const findPattern = ( word ) => {
       return word.length;
 
 };
+
+  // test it: 
+
+  console.log( findPattern('abcabc') ); // -> 2 groups
+  console.log( findPattern('cccc') ); // -> 4 chars
+  
 ```
 
-## HOW IT'S WORKS
+# ANOTHER EXAMPLE
 
-test it:
+So, I see that some test asking for a solution like this... enjoy!
+"The test ask to have the length about on not repeated subsequence"
 
 ```javascript
-  // 'abcabc' = 2 groups
-  console.log( findPattern('abcabc') );
+var findPattern = function( word ) {
+       
+     const count = new Set(word);
+     return count.size;
+   
+};
+
+  // test it: 
   
-  // cccc = 4 repeated chars
-  console.log( findPattern('cccc') );
+  console.log( findPattern('abcabc') ); // -> 3
+  console.log( findPattern('cccc') ); // -> 1
 ```
+
+
