@@ -3,8 +3,8 @@
 
 # findpattern
 
-I am really tired about this s*hit... A lot of assessment for a f*cking job required to make a stupid function ....
-thay ask to have the times of repetition of substrings like "ABCABC" ... and the same funtion need to report the length of same chars like 'CCCC'... Please, refuse test or assessment like that... not have any sense... expecially if you looking for a position as font end... Should be a 'creative' position... what is the pourpuse of this test??? ... Know if you are crazy?, stupid?... so... it's my solution for you!
+I am really tired of this ... A lot of assessment for a f* job required to make a stupid function ....
+they ask to have the times of repetition of substrings like "ABCABC" ... and the same function need to report the length of same chars like 'CCCC'... Please, refuse test or assessment like that... not have any sense... especially if you looking for a position as front end... Should be a 'creative' position... what is the purpose of this test??? ... Know if you are crazy?, stupid?... so... it's my solution for you!
 
 This is the most used test...
 
