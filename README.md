@@ -62,4 +62,32 @@ var findPattern = function( word ) {
   console.log( findPattern('cccc') ); // -> 1
 ```
 
+# PALINDROME
 
+Here you another example for palindrome stuff.
+I hope that it's help you. 
+
+```javascript
+// MY WAY
+const isSameA = ( a,b ) => {
+  var first = a.split('').sort().join('');
+  var second = b.split('').sort().join('');
+  return first === second;
+};
+
+console.log( "A_true", isSameA("cat","tac") );
+console.log( "A_false", isSameA("cat","rat") );
+
+/****************************************************/
+
+// CHECK IF ARE PALINDROME
+const isSameB = ( a,b ) => {
+  var re = /[\W_]/g;
+  var lowStr = b.toLowerCase().replace(re, '');
+  var revIt = lowStr.split('').reverse().join('');
+  return a === revIt;
+};
+ 
+console.log( "B_true" , isSameB( "cat", "tac") );
+console.log( "B_false" , isSameB( "cat", "rat") );
+```
