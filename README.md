@@ -65,7 +65,7 @@ var findPattern = function( word ) {
 # PALINDROME
 
 Here you another example for palindrome stuff.
-I hope that it's help you. 
+I hope that it's help you.
 
 ```javascript
 // MY WAY
