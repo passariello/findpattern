@@ -16,7 +16,7 @@
   const pjson = require('./package.json');
 
   // CREATE ROOT STORE
-  window.findpattern = {};
+  window.find = {};
 
   // FIRST MESSAGE
   console.groupCollapsed( `%c${pjson.name} v${pjson.version}%c`,"color:orange","" );
@@ -34,6 +34,7 @@
 
   // SCRIPT
   require('./scripts/findpattern.js');
+  require('./scripts/palindrome.js');
 
   // test:
   // console.log( findPattern('abcabc') );
