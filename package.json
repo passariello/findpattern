@@ -1,6 +1,6 @@
 {
   "name": "findpattern",
-  "version": "0.0.46",
+  "version": "0.0.47",
   "description": "I am tired of this s**t",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,17 @@
     "pattern",
     "abcabc",
     "powerful",
-    "passariello"
+    "passariello",
+    "palindrome",
+    "array group",
+    "find repeated words",
+    "ABCABC",
+    "assessment",
+    "Repeated",
+    "Substring",
+    "Repeated Substring Pattern",
+    "password",
+    "hack"
   ],
   "author": {
     "name": "Dario Passariello",
