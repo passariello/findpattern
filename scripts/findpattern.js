@@ -7,7 +7,7 @@
 
 /***********************************************************************/
 
-window.find.findPattern = ( word ) => {
+window.findpattern.group = ( word ) => {
 
   let
   replace = word.match( /(.+)(?=.*?\1)/g ),
@@ -23,6 +23,15 @@ window.find.findPattern = ( word ) => {
   }else{
     return word.length;
   }
+
+};
+
+/***********************************************************************/
+
+window.findpattern.countGroup = ( word ) => {
+
+  const count = new Set(word);
+  return count.size;
 
 };
 

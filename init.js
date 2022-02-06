@@ -16,7 +16,7 @@
   const pjson = require('./package.json');
 
   // CREATE ROOT STORE
-  window.find = {};
+  window.findpattern = {};
 
   // FIRST MESSAGE
   console.groupCollapsed( `%c${pjson.name} v${pjson.version}%c`,"color:orange","" );
