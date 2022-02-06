@@ -1,6 +1,6 @@
 {
   "name": "findpattern",
-  "version": "0.0.45",
+  "version": "0.0.46",
   "description": "I am tired of this s**t",
   "main": "index.js",
   "scripts": {
